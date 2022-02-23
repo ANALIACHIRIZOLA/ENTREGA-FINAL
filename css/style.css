@@ -3,6 +3,18 @@
   color: purple;
   text-align: center; }
 
+.aroma {
+  color: #0c7588;
+  font-weight: bold; }
+
+.funcion {
+  color: #974754;
+  font-weight: bold; }
+
+.calidad {
+  color: #631e63;
+  font-weight: bold; }
+
 .grilla {
   width: 100%;
   display: grid;

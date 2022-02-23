@@ -1,5 +1,12 @@
-$formatoResaltado: (
+$textoResaltado: (
     aroma: rgb(12, 117, 136),
     funcion: rgb(151, 71, 84),
     calidad: rgb(99, 30, 99),
 );
+
+@each $frases, $color in $textoResaltado {
+    .#{$frases}{
+        color: $color;
+        font-weight: bold;
+}
+}
