@@ -264,6 +264,9 @@
     background-color: #f8d7f0;
     border-color: rosybrown;
     text-align: center; }
+  .mainContacto .formularioContacto .formulario:focus {
+    background-color: #d6a8fc;
+    color: antiquewhite; }
   .mainContacto .formularioContacto .formularioConsulta {
     padding: 2%;
     height: 26vw;
@@ -274,6 +277,9 @@
     background-color: #f8d7f0;
     border-color: rosybrown;
     text-align: center; }
+  .mainContacto .formularioContacto .formularioConsulta:focus {
+    background-color: #d6a8fc;
+    color: antiquewhite; }
   .mainContacto .formularioContacto .formularioenviar {
     margin: 6%;
     font-size: 70%;
