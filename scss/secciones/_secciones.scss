@@ -315,7 +315,7 @@
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 margin: 2%;
                 text-align: center;
-            }
+                }
             .formulario{
                 padding: 2%;
                 height: 8vw; 
@@ -326,7 +326,11 @@
                 background-color: $rosaClaro;
                 border-color: rosybrown;
                 text-align: center;
-            }
+                }
+                .formulario:focus{
+                    background-color: rgb(214, 168, 252);
+                    color: antiquewhite;
+                }
             .formularioConsulta{
                 padding: 2%;
                 height: 26vw; 
@@ -338,6 +342,10 @@
                 border-color: rosybrown;
                 text-align: center;
             }
+            .formularioConsulta:focus{
+                background-color: rgb(214, 168, 252);
+                color: antiquewhite;
+            }
             .formularioenviar{
                 margin: 6%;
                 font-size: 70%;
@@ -347,9 +355,9 @@
                 background-color:$rosaClaro;
                 border-color: rosybrown;
             }
-       
+        }
    }
-}
+
 .parrafoAromas{
     grid-area: aromas;
     margin: 5% 1% 5% 1%;
