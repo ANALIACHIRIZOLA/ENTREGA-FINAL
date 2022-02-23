@@ -1,0 +1,793 @@
+
+.grilla{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 56vh 8vh 61vh 8vh 61vh;
+    grid-template-areas:
+    "imagenes imagenes imagenes"
+    "subtitulo subtitulo subtitulo"
+    "section3 section4 section5"
+    "subtitulo2 subtitulo2 subtitulo2"
+    "section6 section7 section8"
+    ;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+ 
+    .imagenes{
+        grid-area: imagenes;
+        background-color: $rosa;
+        padding: 3%;
+        width: 90%;
+        height: 90%;
+        margin: 5%;
+        .carousel{
+            padding: 0%;
+            margin:0%;
+            height: 90%;
+            .carousel-inner{
+                display: block;
+                align-items: center;
+                img{
+                    width: 90%;
+                }
+                .pieFotoCarousel{
+                    padding-top: 4%;
+                    font-size: 80%;
+                    a{
+                        color:$violeta;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .subtitulo{
+        @include fontStyle ($rosaClaro, 14px);
+        grid-area: subtitulo;
+        background-color: $violetaOscuro;
+        margin:  2%;
+        padding: 2%;
+        height: 65%;
+        .psubtitulo{
+            margin:0%
+        }
+    }
+    .subtitulo2{
+        @include fontStyle ($rosaClaro, 14px);
+        grid-area: subtitulo2;
+        background-color: $violetaOscuro;
+        margin:  2%;
+        padding: 2%;
+        height: 65%;
+        .psubtitulo{
+            margin:0%
+        }
+    }
+    .section3{
+        grid-area: section3;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 5%;
+        .imagen2{
+            padding: 5%;
+            background-color: $rosa;
+            margin: 5%;
+            width: 100%;
+            height: 45%;
+            img{
+                width: 100%;
+            }
+            .pieFoto2{
+                @extend %estilosTexto;
+                font-size: 55%;
+                text-decoration: none;
+                height: 35%;
+                margin: 0%;
+                padding-top: 5%;
+            }
+            .linkIndex{
+                font-size: 40%;
+                color: $violeta;
+                text-align: end;
+                a{
+                    text-decoration: none;
+                    color: $violeta;
+                }
+                i{
+                    font-size: 50%;
+                    padding: 2%;
+                }
+        
+            }
+        }
+    }
+    .section4{
+        grid-area: section4;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 5%;
+        .imagen2{
+            padding: 5%;
+            background-color: $rosa;
+            margin: 5%;
+            width: 100%;
+            height: 45%;
+            img{
+                width: 100%;
+            }
+            .pieFoto2{
+                @extend %estilosTexto;
+                font-size: 55%;
+                text-decoration: none;
+                height: 35%;
+                margin: 0%;
+                padding-top: 5%;
+            }
+            .linkIndex{
+                font-size: 40%;
+                color: $violeta;
+                text-align: end;
+                a{
+                    text-decoration: none;
+                    color: $violeta;
+                }
+                i{
+                    font-size: 50%;
+                    padding: 2%;
+                }
+        
+            }
+        }
+    }
+    .section5{
+        grid-area: section5;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 5%;
+        .imagen2{
+            padding: 5%;
+            background-color: $rosa;
+            margin: 5%;
+            width: 100%;
+            height: 45%;
+            img{
+                width: 100%;
+            }
+            .pieFoto2{
+                @extend %estilosTexto;
+                font-size: 55%;
+                text-decoration: none;
+                height: 35%;
+                margin: 0%;
+                padding-top: 5%;
+            }
+            .linkIndex{
+                font-size: 40%;
+                text-align: end;
+                a{
+                    text-decoration: none;
+                    color: $violeta;
+                }
+                i{
+                    font-size: 50%;
+                    padding: 2%;
+                }
+        
+            }
+        }
+    }
+    .section6{
+        grid-area: section6;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 5%;
+        .imagen2{
+            padding: 5%;
+            background-color: $rosa;
+            margin: 5%;
+            width: 100%;
+            height: 45%;
+            img{
+                width: 100%;
+            }
+            .pieFoto2{
+                @extend %estilosTexto;
+                font-size: 55%;
+                text-decoration: none;
+                height: 35%;
+                margin: 0%;
+                padding-top: 5%;
+            }
+            .linkIndex{
+                font-size: 40%;
+                text-align: end;
+                a{
+                    text-decoration: none;
+                    color: $violeta;
+                }
+                i{
+                    font-size: 50%;
+                    padding: 2%;
+                }
+        
+            }
+        }
+    }
+    .section7{
+        grid-area: section7;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 5%;
+        .imagen2{
+            padding: 5%;
+            background-color: $rosa;
+            margin: 5%;
+            width: 100%;
+            height: 45%;
+            img{
+                width: 100%;
+            }
+            .pieFoto2{
+                @extend %estilosTexto;
+                font-size: 55%;
+                text-decoration: none;
+                height: 35%;
+                margin: 0%;
+                padding-top: 5%;
+            }
+            .linkIndex{
+                font-size: 40%;
+                text-align: end;
+                a{
+                    text-decoration: none;
+                    color: $violeta;
+                }
+                i{
+                    font-size: 50%;
+                    padding: 2%;
+                }
+        
+            }
+        }
+    }
+    .section8{
+        grid-area: section8;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 5%;
+        .imagen2{
+            padding: 5%;
+            background-color: $rosa;
+            margin: 5%;
+            width: 100%;
+            height: 45%;
+            img{
+                width: 100%;
+            }
+            .pieFoto2{
+                @extend %estilosTexto;
+                font-size: 55%;
+                text-decoration: none;
+                height: 35%;
+                margin: 0%;
+                padding-top: 5%;
+            }
+            .linkIndex{
+                font-size: 40%;
+                text-align: end;
+                a{
+                    text-decoration: none;
+                    color: $violeta;
+                }
+                i{
+                    font-size: 50%;
+                    padding: 2%;
+                }
+        
+            }
+        }
+    }
+}
+
+.mainContacto{
+        .formularioContacto{
+            display: flex;
+            flex-direction: column;
+            margin: 5% 15% auto 15%;
+            align-items: center;
+            .parrafo{
+                color: rosybrown;
+                font-size: 80%;
+                font-style: oblique;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin: 2%;
+                text-align: center;
+            }
+            .formulario{
+                padding: 2%;
+                height: 8vw; 
+                font-size: 70%;
+                color: rosybrown;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 100%;
+                background-color: $rosaClaro;
+                border-color: rosybrown;
+                text-align: center;
+            }
+            .formularioConsulta{
+                padding: 2%;
+                height: 26vw; 
+                font-size: 70%;
+                color: rosybrown;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 100%;
+                background-color: $rosaClaro;
+                border-color: rosybrown;
+                text-align: center;
+            }
+            .formularioenviar{
+                margin: 6%;
+                font-size: 70%;
+                padding: 3%;
+                color: rosybrown;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color:$rosaClaro;
+                border-color: rosybrown;
+            }
+       
+   }
+}
+.parrafoAromas{
+    grid-area: aromas;
+    margin: 5% 1% 5% 1%;
+    text-align: justify;
+    h2{
+        font-size: 65%;
+        color: $violetaOscuro;
+        font-family: $pieFoto;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .aromas{
+        background-color: $rosaClaro;
+        padding: 2%;
+        margin: 3%;
+        p{
+            @extend %estilosTexto;
+            font-size: 70%;
+            margin:0%
+        }
+        h1{
+            color: rgb(17, 142, 192);
+            font-family: $menu;
+            font-size: 72%;
+            margin-left: 0;
+            text-decoration: underline;
+            margin: 1%;
+            text-align: center;
+        }
+    }
+}
+.sectionP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .imagenes2{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 3%;
+        background-image: linear-gradient(90deg, rgb(241, 167, 200), rgb(243, 209, 224));
+        .imagenProducto{
+            width: 100%;
+            margin: 3%;
+            height: 60vw;
+            .texto{
+                margin: 5%;
+                margin-left: 0%;
+                @include fontStyle ($violetaOscuro, 12px);
+            }
+            .imagenP{
+                border-radius: 5%;
+            }
+
+        }
+        .detalleProducto{
+            width: 110%;
+            font-size: 65%;
+            @extend %estilosTexto;
+            padding: 2%;
+            margin: 0%;
+            height: 65vw;
+            line-height: 110%;
+        }
+    }
+
+}
+
+/* Estilos tablet */
+@media (min-width: 768px){
+    .grilla{
+        grid-template-rows: 115vh 14vh 130vh 14vh 130vh;
+        .imagenes{
+            width: 60%;
+            height: 90%;
+            margin: 5% 20% 5% 20%;
+            .carousel{
+                height: 90%;
+                .carousel-inner{
+                    img{
+                        width: 60%;
+                        height: 60%;
+                    }
+                    .pieFotoCarousel{
+                        padding-top: 2%;
+                        font-size: 80%;
+                    }
+            }
+        }
+        }
+        .subtitulo{
+            @include fontStyle ($rosaClaro, 16px);
+        }
+        .subtitulo2{
+            @include fontStyle ($rosaClaro, 16px);
+        }
+        .section3{
+                .imagen2{
+                    height: 55%;
+                    .pieFoto2{
+                        font-size: 80%;
+                        height: 25%;
+                    }
+                    .linkIndex{
+                        font-size: 70%;
+                        i{
+                            font-size: 70%;
+                            padding: 2%;
+                        }
+                
+                    }
+                }
+        }
+        .section4{
+            .imagen2{
+                height: 55%;
+                .pieFoto2{
+                    font-size: 80%;
+                    height: 25%;
+                }
+                .linkIndex{
+                    font-size: 70%;
+                    i{
+                        font-size: 70%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+    }
+        .section5{
+            .imagen2{
+                height: 55%;
+                .pieFoto2{
+                    font-size: 80%;
+                    height: 25%;
+                }
+                .linkIndex{
+                    font-size: 70%;
+                    i{
+                        font-size: 70%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+    }
+        .section6{
+            .imagen2{
+                height: 55%;
+                .pieFoto2{
+                    font-size: 80%;
+                    height: 25%;
+                }
+                .linkIndex{
+                    font-size: 70%;
+                    i{
+                        font-size: 70%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+    }
+        .section7{
+            .imagen2{
+                height: 55%;
+                .pieFoto2{
+                    font-size: 80%;
+                    height: 25%;
+                }
+                .linkIndex{
+                    font-size: 70%;
+                    i{
+                        font-size: 70%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+    }
+        .section8{
+            .imagen2{
+                height: 55%;
+                .pieFoto2{
+                    font-size: 80%;
+                    height: 25%;
+                }
+                .linkIndex{
+                    font-size: 70%;
+                    i{
+                        font-size: 70%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+    }
+    .sectionP{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 5%;
+        .imagenes2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 46%;
+            margin: 2%;
+            height: 62vw;
+            .imagenProducto{
+                width: 80%;
+                margin: 3%;
+                height: 42vw;
+                .texto{
+                    margin: 3%;
+                    height: 12%;
+                }
+                .imagenP{
+                    border-radius: 5%;
+                }
+    
+            }
+            .detalleProducto{
+                width: 90%;
+                font-size: 80%;
+                padding: 2%;
+                margin: 0%;
+                height: 20vw;
+                line-height: 110%;
+                text-align: center;
+            }
+        }
+}
+.parrafoAromas{
+    margin: 8% 15% 10% 15%;
+    h2{
+        font-size: 80%;
+    }
+    .aromas{
+        p{
+            font-size: 85%;
+        }
+        h1{
+            font-size: 80%;
+
+        }
+    }
+}
+.mainContacto{
+    .formularioContacto{
+        margin: 5% 25% auto 25%;
+        .parrafo{
+            font-size: 80%;
+            margin: 2%;
+        }
+        .formulario{
+            padding: 5%;
+        }
+        .formularioConsulta{
+
+            font-size: 70%;
+        }
+        .formularioenviar{
+            font-size: 70%;
+            padding: 3%;
+        }
+   
+}
+}
+}
+}
+/* Estilos desktop */
+@media(min-width: 1024px){
+    .grilla{
+        grid-template-rows: 105vh 18vh 140vh 18vh 140vh;
+        .subtitulo{
+            @include fontStyle ($rosaClaro, 17px);
+        }
+        .subtitulo2{
+            @include fontStyle ($rosaClaro, 17px);
+        }
+        .section3{
+            .imagen2{
+                height: 42%;
+                .pieFoto2{
+                    font-size: 95%;
+                    height: 16%;
+                }
+                .linkIndex{
+                    font-size: 80%;
+                    i{
+                        font-size: 80%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+        }
+        .section4{
+            .imagen2{
+                height: 42%;
+                .pieFoto2{
+                    font-size: 95%;
+                    height: 16%;
+                }
+                .linkIndex{
+                    font-size: 80%;
+                    i{
+                        font-size: 80%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+        }
+        .section5{
+            .imagen2{
+                height: 42%;
+                .pieFoto2{
+                    font-size: 95%;
+                    height: 16%;
+                }
+                .linkIndex{
+                    font-size: 80%;
+                    i{
+                        font-size: 80%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+        }
+        .section6{
+            .imagen2{
+                height: 42%;
+                .pieFoto2{
+                    font-size: 95%;
+                    height: 16%;
+                }
+                .linkIndex{
+                    font-size: 80%;
+                    i{
+                        font-size: 80%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+        }
+        .section7{
+            .imagen2{
+                height: 42%;
+                .pieFoto2{
+                    font-size: 95%;
+                    height: 16%;
+                }
+                .linkIndex{
+                    font-size: 80%;
+                    i{
+                        font-size: 80%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+        }
+        .section8{
+            .imagen2{
+                height: 42%;
+                .pieFoto2{
+                    font-size: 95%;
+                    height: 16%;
+                }
+                .linkIndex{
+                    font-size: 80%;
+                    i{
+                        font-size: 80%;
+                        padding: 2%;
+                    }
+            
+                }
+            }
+        }
+
+    }
+    .parrafoAromas{
+        h2{
+            font-size: 95%;
+        }
+        .aromas{
+            p{
+                font-size: 100%;
+            }
+            h1{
+                font-size: 95%;
+            }
+        }
+    }
+    .mainContacto{
+        .formularioContacto{
+            .parrafo{
+                font-size: 90%;
+            }
+            .formulario{
+                font-size: 95%;
+            }
+            .formularioConsulta{
+                font-size: 95%;
+            }
+            .formularioenviar{
+                font-size: 95%;
+            }
+       
+    }
+    
+}
+.sectionP{
+    .imagenes2{
+        width: 46%;
+        margin: 2%;
+        height: 52vw;
+        .imagenProducto{
+            width: 80%;
+            margin: 2%;
+            height: 44vw;
+            .texto{
+                height: 2vw;
+            }
+        }
+        .detalleProducto{
+            width: 90%;
+            font-size: 80%;
+            height: 15vw;
+            line-height: 115%;
+
+        }
+    }
+}
+}

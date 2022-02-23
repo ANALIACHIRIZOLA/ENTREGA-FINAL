@@ -1,0 +1,45 @@
+.footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    background-image: linear-gradient(50deg, $violetaOscuro, rgb(150, 83, 212));
+    .pie{
+        text-decoration: none;
+        color: $rosa;
+        font-size: 70%;
+        font-family: $menu;
+        margin: 2%;
+    }
+    .fab {
+        color: $rosa;
+        margin: 5px;
+        font-size: 120%;
+    }
+}
+
+   /* Estilos tablet */
+   @media (min-width: 768px){
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        .pie{
+            font-size: 85%;
+            text-align: center;
+            width: 25%;
+            margin: 3% 2.5% 3% 2.5%;
+        }
+    }
+}
+  
+/* Estilos desktop */
+@media(min-width: 1024px){
+    .footer{
+        .pie{
+            font-size: 95%;
+        }
+    }
+}

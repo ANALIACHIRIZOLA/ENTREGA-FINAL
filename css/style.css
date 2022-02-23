@@ -1,0 +1,746 @@
+.grilla .section3 .imagen2 .pieFoto2, .grilla .section4 .imagen2 .pieFoto2, .grilla .section5 .imagen2 .pieFoto2, .grilla .section6 .imagen2 .pieFoto2, .grilla .section7 .imagen2 .pieFoto2, .grilla .section8 .imagen2 .pieFoto2, .parrafoAromas .aromas p, .sectionP .imagenes2 .detalleProducto {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: purple;
+  text-align: center; }
+
+.grilla {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 56vh 8vh 61vh 8vh 61vh;
+  grid-template-areas: "imagenes imagenes imagenes" "subtitulo subtitulo subtitulo" "section3 section4 section5" "subtitulo2 subtitulo2 subtitulo2" "section6 section7 section8";
+  grid-column-gap: 0;
+  grid-row-gap: 0; }
+  .grilla .imagenes {
+    grid-area: imagenes;
+    background-color: #fddfee;
+    padding: 3%;
+    width: 90%;
+    height: 90%;
+    margin: 5%; }
+    .grilla .imagenes .carousel {
+      padding: 0%;
+      margin: 0%;
+      height: 90%; }
+      .grilla .imagenes .carousel .carousel-inner {
+        display: block;
+        align-items: center; }
+        .grilla .imagenes .carousel .carousel-inner img {
+          width: 90%; }
+        .grilla .imagenes .carousel .carousel-inner .pieFotoCarousel {
+          padding-top: 4%;
+          font-size: 80%; }
+          .grilla .imagenes .carousel .carousel-inner .pieFotoCarousel a {
+            color: #8112ad;
+            text-decoration: none; }
+  .grilla .subtitulo {
+    color: #f8d7f0;
+    text-align: center;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    grid-area: subtitulo;
+    background-color: purple;
+    margin: 2%;
+    padding: 2%;
+    height: 65%; }
+    .grilla .subtitulo .psubtitulo {
+      margin: 0%; }
+  .grilla .subtitulo2 {
+    color: #f8d7f0;
+    text-align: center;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    grid-area: subtitulo2;
+    background-color: purple;
+    margin: 2%;
+    padding: 2%;
+    height: 65%; }
+    .grilla .subtitulo2 .psubtitulo {
+      margin: 0%; }
+  .grilla .section3 {
+    grid-area: section3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 5%; }
+    .grilla .section3 .imagen2 {
+      padding: 5%;
+      background-color: #fddfee;
+      margin: 5%;
+      width: 100%;
+      height: 45%; }
+      .grilla .section3 .imagen2 img {
+        width: 100%; }
+      .grilla .section3 .imagen2 .pieFoto2 {
+        font-size: 55%;
+        text-decoration: none;
+        height: 35%;
+        margin: 0%;
+        padding-top: 5%; }
+      .grilla .section3 .imagen2 .linkIndex {
+        font-size: 40%;
+        color: #8112ad;
+        text-align: end; }
+        .grilla .section3 .imagen2 .linkIndex a {
+          text-decoration: none;
+          color: #8112ad; }
+        .grilla .section3 .imagen2 .linkIndex i {
+          font-size: 50%;
+          padding: 2%; }
+  .grilla .section4 {
+    grid-area: section4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 5%; }
+    .grilla .section4 .imagen2 {
+      padding: 5%;
+      background-color: #fddfee;
+      margin: 5%;
+      width: 100%;
+      height: 45%; }
+      .grilla .section4 .imagen2 img {
+        width: 100%; }
+      .grilla .section4 .imagen2 .pieFoto2 {
+        font-size: 55%;
+        text-decoration: none;
+        height: 35%;
+        margin: 0%;
+        padding-top: 5%; }
+      .grilla .section4 .imagen2 .linkIndex {
+        font-size: 40%;
+        color: #8112ad;
+        text-align: end; }
+        .grilla .section4 .imagen2 .linkIndex a {
+          text-decoration: none;
+          color: #8112ad; }
+        .grilla .section4 .imagen2 .linkIndex i {
+          font-size: 50%;
+          padding: 2%; }
+  .grilla .section5 {
+    grid-area: section5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 5%; }
+    .grilla .section5 .imagen2 {
+      padding: 5%;
+      background-color: #fddfee;
+      margin: 5%;
+      width: 100%;
+      height: 45%; }
+      .grilla .section5 .imagen2 img {
+        width: 100%; }
+      .grilla .section5 .imagen2 .pieFoto2 {
+        font-size: 55%;
+        text-decoration: none;
+        height: 35%;
+        margin: 0%;
+        padding-top: 5%; }
+      .grilla .section5 .imagen2 .linkIndex {
+        font-size: 40%;
+        text-align: end; }
+        .grilla .section5 .imagen2 .linkIndex a {
+          text-decoration: none;
+          color: #8112ad; }
+        .grilla .section5 .imagen2 .linkIndex i {
+          font-size: 50%;
+          padding: 2%; }
+  .grilla .section6 {
+    grid-area: section6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 5%; }
+    .grilla .section6 .imagen2 {
+      padding: 5%;
+      background-color: #fddfee;
+      margin: 5%;
+      width: 100%;
+      height: 45%; }
+      .grilla .section6 .imagen2 img {
+        width: 100%; }
+      .grilla .section6 .imagen2 .pieFoto2 {
+        font-size: 55%;
+        text-decoration: none;
+        height: 35%;
+        margin: 0%;
+        padding-top: 5%; }
+      .grilla .section6 .imagen2 .linkIndex {
+        font-size: 40%;
+        text-align: end; }
+        .grilla .section6 .imagen2 .linkIndex a {
+          text-decoration: none;
+          color: #8112ad; }
+        .grilla .section6 .imagen2 .linkIndex i {
+          font-size: 50%;
+          padding: 2%; }
+  .grilla .section7 {
+    grid-area: section7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 5%; }
+    .grilla .section7 .imagen2 {
+      padding: 5%;
+      background-color: #fddfee;
+      margin: 5%;
+      width: 100%;
+      height: 45%; }
+      .grilla .section7 .imagen2 img {
+        width: 100%; }
+      .grilla .section7 .imagen2 .pieFoto2 {
+        font-size: 55%;
+        text-decoration: none;
+        height: 35%;
+        margin: 0%;
+        padding-top: 5%; }
+      .grilla .section7 .imagen2 .linkIndex {
+        font-size: 40%;
+        text-align: end; }
+        .grilla .section7 .imagen2 .linkIndex a {
+          text-decoration: none;
+          color: #8112ad; }
+        .grilla .section7 .imagen2 .linkIndex i {
+          font-size: 50%;
+          padding: 2%; }
+  .grilla .section8 {
+    grid-area: section8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 5%; }
+    .grilla .section8 .imagen2 {
+      padding: 5%;
+      background-color: #fddfee;
+      margin: 5%;
+      width: 100%;
+      height: 45%; }
+      .grilla .section8 .imagen2 img {
+        width: 100%; }
+      .grilla .section8 .imagen2 .pieFoto2 {
+        font-size: 55%;
+        text-decoration: none;
+        height: 35%;
+        margin: 0%;
+        padding-top: 5%; }
+      .grilla .section8 .imagen2 .linkIndex {
+        font-size: 40%;
+        text-align: end; }
+        .grilla .section8 .imagen2 .linkIndex a {
+          text-decoration: none;
+          color: #8112ad; }
+        .grilla .section8 .imagen2 .linkIndex i {
+          font-size: 50%;
+          padding: 2%; }
+
+.mainContacto .formularioContacto {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 15% auto 15%;
+  align-items: center; }
+  .mainContacto .formularioContacto .parrafo {
+    color: rosybrown;
+    font-size: 80%;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2%;
+    text-align: center; }
+  .mainContacto .formularioContacto .formulario {
+    padding: 2%;
+    height: 8vw;
+    font-size: 70%;
+    color: rosybrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    background-color: #f8d7f0;
+    border-color: rosybrown;
+    text-align: center; }
+  .mainContacto .formularioContacto .formularioConsulta {
+    padding: 2%;
+    height: 26vw;
+    font-size: 70%;
+    color: rosybrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    background-color: #f8d7f0;
+    border-color: rosybrown;
+    text-align: center; }
+  .mainContacto .formularioContacto .formularioenviar {
+    margin: 6%;
+    font-size: 70%;
+    padding: 3%;
+    color: rosybrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8d7f0;
+    border-color: rosybrown; }
+
+.parrafoAromas {
+  grid-area: aromas;
+  margin: 5% 1% 5% 1%;
+  text-align: justify; }
+  .parrafoAromas h2 {
+    font-size: 65%;
+    color: purple;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-bottom: 5%;
+    text-align: center; }
+  .parrafoAromas .aromas {
+    background-color: #f8d7f0;
+    padding: 2%;
+    margin: 3%; }
+    .parrafoAromas .aromas p {
+      font-size: 70%;
+      margin: 0%; }
+    .parrafoAromas .aromas h1 {
+      color: #118ec0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 72%;
+      margin-left: 0;
+      text-decoration: underline;
+      margin: 1%;
+      text-align: center; }
+
+.sectionP {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .sectionP .imagenes2 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 3%;
+    background-image: linear-gradient(90deg, #f1a7c8, #f3d1e0); }
+    .sectionP .imagenes2 .imagenProducto {
+      width: 100%;
+      margin: 3%;
+      height: 60vw; }
+      .sectionP .imagenes2 .imagenProducto .texto {
+        margin: 5%;
+        margin-left: 0%;
+        color: purple;
+        text-align: center;
+        font-style: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px; }
+      .sectionP .imagenes2 .imagenProducto .imagenP {
+        border-radius: 5%; }
+    .sectionP .imagenes2 .detalleProducto {
+      width: 110%;
+      font-size: 65%;
+      padding: 2%;
+      margin: 0%;
+      height: 65vw;
+      line-height: 110%; }
+
+/* Estilos tablet */
+@media (min-width: 768px) {
+  .grilla {
+    grid-template-rows: 115vh 14vh 130vh 14vh 130vh; }
+    .grilla .imagenes {
+      width: 60%;
+      height: 90%;
+      margin: 5% 20% 5% 20%; }
+      .grilla .imagenes .carousel {
+        height: 90%; }
+        .grilla .imagenes .carousel .carousel-inner img {
+          width: 60%;
+          height: 60%; }
+        .grilla .imagenes .carousel .carousel-inner .pieFotoCarousel {
+          padding-top: 2%;
+          font-size: 80%; }
+    .grilla .subtitulo {
+      color: #f8d7f0;
+      text-align: center;
+      font-style: normal;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 16px; }
+    .grilla .subtitulo2 {
+      color: #f8d7f0;
+      text-align: center;
+      font-style: normal;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 16px; }
+    .grilla .section3 .imagen2 {
+      height: 55%; }
+      .grilla .section3 .imagen2 .pieFoto2 {
+        font-size: 80%;
+        height: 25%; }
+      .grilla .section3 .imagen2 .linkIndex {
+        font-size: 70%; }
+        .grilla .section3 .imagen2 .linkIndex i {
+          font-size: 70%;
+          padding: 2%; }
+    .grilla .section4 .imagen2 {
+      height: 55%; }
+      .grilla .section4 .imagen2 .pieFoto2 {
+        font-size: 80%;
+        height: 25%; }
+      .grilla .section4 .imagen2 .linkIndex {
+        font-size: 70%; }
+        .grilla .section4 .imagen2 .linkIndex i {
+          font-size: 70%;
+          padding: 2%; }
+    .grilla .section5 .imagen2 {
+      height: 55%; }
+      .grilla .section5 .imagen2 .pieFoto2 {
+        font-size: 80%;
+        height: 25%; }
+      .grilla .section5 .imagen2 .linkIndex {
+        font-size: 70%; }
+        .grilla .section5 .imagen2 .linkIndex i {
+          font-size: 70%;
+          padding: 2%; }
+    .grilla .section6 .imagen2 {
+      height: 55%; }
+      .grilla .section6 .imagen2 .pieFoto2 {
+        font-size: 80%;
+        height: 25%; }
+      .grilla .section6 .imagen2 .linkIndex {
+        font-size: 70%; }
+        .grilla .section6 .imagen2 .linkIndex i {
+          font-size: 70%;
+          padding: 2%; }
+    .grilla .section7 .imagen2 {
+      height: 55%; }
+      .grilla .section7 .imagen2 .pieFoto2 {
+        font-size: 80%;
+        height: 25%; }
+      .grilla .section7 .imagen2 .linkIndex {
+        font-size: 70%; }
+        .grilla .section7 .imagen2 .linkIndex i {
+          font-size: 70%;
+          padding: 2%; }
+    .grilla .section8 .imagen2 {
+      height: 55%; }
+      .grilla .section8 .imagen2 .pieFoto2 {
+        font-size: 80%;
+        height: 25%; }
+      .grilla .section8 .imagen2 .linkIndex {
+        font-size: 70%; }
+        .grilla .section8 .imagen2 .linkIndex i {
+          font-size: 70%;
+          padding: 2%; }
+    .grilla .sectionP {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 5%; }
+      .grilla .sectionP .imagenes2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 46%;
+        margin: 2%;
+        height: 62vw; }
+        .grilla .sectionP .imagenes2 .imagenProducto {
+          width: 80%;
+          margin: 3%;
+          height: 42vw; }
+          .grilla .sectionP .imagenes2 .imagenProducto .texto {
+            margin: 3%;
+            height: 12%; }
+          .grilla .sectionP .imagenes2 .imagenProducto .imagenP {
+            border-radius: 5%; }
+        .grilla .sectionP .imagenes2 .detalleProducto {
+          width: 90%;
+          font-size: 80%;
+          padding: 2%;
+          margin: 0%;
+          height: 20vw;
+          line-height: 110%;
+          text-align: center; }
+    .grilla .parrafoAromas {
+      margin: 8% 15% 10% 15%; }
+      .grilla .parrafoAromas h2 {
+        font-size: 80%; }
+      .grilla .parrafoAromas .aromas p {
+        font-size: 85%; }
+      .grilla .parrafoAromas .aromas h1 {
+        font-size: 80%; }
+    .grilla .mainContacto .formularioContacto {
+      margin: 5% 25% auto 25%; }
+      .grilla .mainContacto .formularioContacto .parrafo {
+        font-size: 80%;
+        margin: 2%; }
+      .grilla .mainContacto .formularioContacto .formulario {
+        padding: 5%; }
+      .grilla .mainContacto .formularioContacto .formularioConsulta {
+        font-size: 70%; }
+      .grilla .mainContacto .formularioContacto .formularioenviar {
+        font-size: 70%;
+        padding: 3%; } }
+
+/* Estilos desktop */
+@media (min-width: 1024px) {
+  .grilla {
+    grid-template-rows: 105vh 18vh 140vh 18vh 140vh; }
+    .grilla .subtitulo {
+      color: #f8d7f0;
+      text-align: center;
+      font-style: normal;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 17px; }
+    .grilla .subtitulo2 {
+      color: #f8d7f0;
+      text-align: center;
+      font-style: normal;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 17px; }
+    .grilla .section3 .imagen2 {
+      height: 42%; }
+      .grilla .section3 .imagen2 .pieFoto2 {
+        font-size: 95%;
+        height: 16%; }
+      .grilla .section3 .imagen2 .linkIndex {
+        font-size: 80%; }
+        .grilla .section3 .imagen2 .linkIndex i {
+          font-size: 80%;
+          padding: 2%; }
+    .grilla .section4 .imagen2 {
+      height: 42%; }
+      .grilla .section4 .imagen2 .pieFoto2 {
+        font-size: 95%;
+        height: 16%; }
+      .grilla .section4 .imagen2 .linkIndex {
+        font-size: 80%; }
+        .grilla .section4 .imagen2 .linkIndex i {
+          font-size: 80%;
+          padding: 2%; }
+    .grilla .section5 .imagen2 {
+      height: 42%; }
+      .grilla .section5 .imagen2 .pieFoto2 {
+        font-size: 95%;
+        height: 16%; }
+      .grilla .section5 .imagen2 .linkIndex {
+        font-size: 80%; }
+        .grilla .section5 .imagen2 .linkIndex i {
+          font-size: 80%;
+          padding: 2%; }
+    .grilla .section6 .imagen2 {
+      height: 42%; }
+      .grilla .section6 .imagen2 .pieFoto2 {
+        font-size: 95%;
+        height: 16%; }
+      .grilla .section6 .imagen2 .linkIndex {
+        font-size: 80%; }
+        .grilla .section6 .imagen2 .linkIndex i {
+          font-size: 80%;
+          padding: 2%; }
+    .grilla .section7 .imagen2 {
+      height: 42%; }
+      .grilla .section7 .imagen2 .pieFoto2 {
+        font-size: 95%;
+        height: 16%; }
+      .grilla .section7 .imagen2 .linkIndex {
+        font-size: 80%; }
+        .grilla .section7 .imagen2 .linkIndex i {
+          font-size: 80%;
+          padding: 2%; }
+    .grilla .section8 .imagen2 {
+      height: 42%; }
+      .grilla .section8 .imagen2 .pieFoto2 {
+        font-size: 95%;
+        height: 16%; }
+      .grilla .section8 .imagen2 .linkIndex {
+        font-size: 80%; }
+        .grilla .section8 .imagen2 .linkIndex i {
+          font-size: 80%;
+          padding: 2%; }
+  .parrafoAromas h2 {
+    font-size: 95%; }
+  .parrafoAromas .aromas p {
+    font-size: 100%; }
+  .parrafoAromas .aromas h1 {
+    font-size: 95%; }
+  .mainContacto .formularioContacto .parrafo {
+    font-size: 90%; }
+  .mainContacto .formularioContacto .formulario {
+    font-size: 95%; }
+  .mainContacto .formularioContacto .formularioConsulta {
+    font-size: 95%; }
+  .mainContacto .formularioContacto .formularioenviar {
+    font-size: 95%; }
+  .sectionP .imagenes2 {
+    width: 46%;
+    margin: 2%;
+    height: 52vw; }
+    .sectionP .imagenes2 .imagenProducto {
+      width: 80%;
+      margin: 2%;
+      height: 44vw; }
+      .sectionP .imagenes2 .imagenProducto .texto {
+        height: 2vw; }
+    .sectionP .imagenes2 .detalleProducto {
+      width: 90%;
+      font-size: 80%;
+      height: 15vw;
+      line-height: 115%; } }
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  background-image: linear-gradient(50deg, purple, #9653d4); }
+  .footer .pie {
+    text-decoration: none;
+    color: #fddfee;
+    font-size: 70%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 2%; }
+  .footer .fab {
+    color: #fddfee;
+    margin: 5px;
+    font-size: 120%; }
+
+/* Estilos tablet */
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center; }
+    .footer .pie {
+      font-size: 85%;
+      text-align: center;
+      width: 25%;
+      margin: 3% 2.5% 3% 2.5%; } }
+
+/* Estilos desktop */
+@media (min-width: 1024px) {
+  .footer .pie {
+    font-size: 95%; } }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.header {
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+  grid-template-rows: 28vh 4vh;
+  grid-template-areas: "section1 logoTitulo section2" "menuCentral menuCentral menuCentral";
+  grid-column-gap: 0;
+  grid-row-gap: 0; }
+  .header .logoTitulo {
+    grid-area: logoTitulo;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .header .logoTitulo .titulo {
+      width: 90%;
+      padding: 3%;
+      align-items: center; }
+    .header .logoTitulo .piedras {
+      width: 60%;
+      margin: 5%;
+      align-items: center; }
+  .header .section1 {
+    width: 90%;
+    grid-area: section1;
+    text-align: center;
+    transform: skewX(-15deg);
+    margin: 5%; }
+  .header .section2 {
+    width: 90%;
+    grid-area: section2;
+    text-align: center;
+    margin: 5%; }
+  .header .nav {
+    grid-area: menuCentral;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%; }
+    .header .nav .dropdown {
+      width: 100%;
+      display: flex;
+      flex-direction: row; }
+      .header .nav .dropdown Button {
+        background-color: purple;
+        color: #f8d7f0;
+        text-decoration: none;
+        border-color: purple;
+        font-size: 60%;
+        border-radius: 0%;
+        width: 14vh;
+        margin: 2%; }
+        .header .nav .dropdown Button a {
+          text-decoration: none;
+          color: #f8d7f0; }
+      .header .nav .dropdown .dropdown-menu {
+        background-color: purple;
+        border-color: purple;
+        font-size: 60%;
+        border-radius: 0%;
+        margin: 5%;
+        padding: 0%; }
+        .header .nav .dropdown .dropdown-menu .dropdown-item {
+          color: #f8d7f0;
+          padding: 5%; }
+
+/* Estilos tablet */
+@media (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-rows: 30vh 10vh; }
+    .header .logoTitulo {
+      display: flex;
+      flex-direction: row; }
+      .header .logoTitulo .titulo {
+        width: 70%;
+        padding-right: 0%;
+        padding-left: 0%; }
+      .header .logoTitulo .piedras {
+        width: 28%;
+        margin: 1%; }
+    .header .section1 .logo1 {
+      height: 150%; }
+    .header .section2 .logo2 {
+      height: 150%; }
+    .header .nav {
+      width: 100%; }
+      .header .nav .dropdown {
+        width: 70%;
+        margin: 0% 15% 0% 15%; }
+        .header .nav .dropdown Button {
+          font-size: 80%;
+          width: 18vh;
+          margin: 2% 4% 2% 4%; }
+        .header .nav .dropdown .dropdown-menu {
+          font-size: 80%;
+          margin: 5%; } }
+
+/* Estilos desktop */
+@media (min-width: 1024px) {
+  .header {
+    grid-template-rows: 34vh 10vh; }
+    .header .section1 {
+      height: 130%;
+      margin-left: 10%; }
+    .header .section2 {
+      height: 110%; }
+    .header .nav {
+      width: 100%; }
+      .header .nav .dropdown {
+        width: 60%;
+        margin: 0% 20% 0% 20%; }
+        .header .nav .dropdown Button {
+          font-size: 90%;
+          width: 20vh;
+          margin: 2% 4% 2% 4%; }
+        .header .nav .dropdown .dropdown-menu {
+          font-size: 90%;
+          margin: 5%; } }

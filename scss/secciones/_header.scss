@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-rows: 28vh 4vh;
+    grid-template-areas:
+    "section1 logoTitulo section2"
+    "menuCentral menuCentral menuCentral"
+    ;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+ 
+    .logoTitulo{
+        grid-area: logoTitulo;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .titulo{
+            width: 90%;
+            padding:3%;
+            align-items: center;
+        }
+        .piedras{
+            width: 60%;
+            margin: 5%;
+            align-items: center;
+        }
+    }
+    .section1{
+        width: 90%;
+        grid-area: section1;
+        text-align: center;
+        transform: skewX(-15deg);
+        margin: 5%;
+    }
+    .section2{
+        width: 90%;
+        grid-area: section2;
+        text-align: center;
+        margin: 5%;
+    }
+    .nav{
+        grid-area: menuCentral;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+        .dropdown{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+            Button{
+                background-color: $violetaOscuro;
+                color: $rosaClaro;
+                text-decoration: none;
+                border-color: $violetaOscuro;
+                font-size: 60%;
+                border-radius: 0%;
+                width: 14vh;
+                margin: 2%;
+                a{
+                    text-decoration: none;
+                    color: $rosaClaro;
+                }
+                }
+            .dropdown-menu{
+                background-color: $violetaOscuro;
+                border-color: $violetaOscuro;
+                font-size: 60%;
+                border-radius: 0%;
+                margin: 5%;
+                padding: 0%;
+                .dropdown-item{
+                    color: $rosaClaro;
+                    padding: 5%;
+                }
+            }
+        }
+    }
+    }
+
+/* Estilos tablet */
+@media (min-width: 768px){
+    .header{
+        display: grid;
+        grid-template-columns: 2fr 4fr 2fr;
+        grid-template-rows: 30vh 10vh;
+        .logoTitulo{
+            display: flex;
+            flex-direction: row;
+            .titulo{
+                width: 70%;
+                padding-right: 0%;
+                padding-left: 0%;
+            }
+            .piedras{
+                width: 28%;
+                margin: 1%;
+            }
+        }
+        .section1{
+            .logo1{
+                height: 150%;
+            }
+
+        }
+        .section2{
+            .logo2{
+                height: 150%;
+            }
+
+        }
+    .nav{
+        width: 100%;
+        .dropdown{
+        width:70%;
+        margin: 0% 15% 0% 15%;
+            Button{
+                font-size: 80%;
+                width: 18vh;
+                margin: 2% 4% 2% 4%;
+                }
+            .dropdown-menu{
+                font-size: 80%;
+                margin: 5%;
+            }
+        }
+    }
+    }
+    }
+
+/* Estilos desktop */
+@media(min-width: 1024px){
+    .header{
+        grid-template-rows: 34vh 10vh;
+        .section1{
+            height: 130%;
+            margin-left: 10%;
+        }
+        .section2{
+            height: 110%;
+        }
+        .nav{
+            width: 100%;
+            .dropdown{
+            width:60%;
+            margin: 0% 20% 0% 20%;
+                Button{
+                    font-size: 90%;
+                    width: 20vh;
+                    margin: 2% 4% 2% 4%;
+                    }
+                .dropdown-menu{
+                    font-size: 90%;
+                    margin: 5%;
+                }
+            }
+        }
+}
+}
